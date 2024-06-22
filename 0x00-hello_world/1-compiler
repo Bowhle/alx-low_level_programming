@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -E "$CFILE" -o c
+gcc -o -o "$(echo $CFILE | rev | cut -d "." -f 2).0" SCFILE
