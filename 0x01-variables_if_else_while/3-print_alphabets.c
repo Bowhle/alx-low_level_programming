@@ -1,26 +1,25 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
-/**
- * main - Entry point
- * Retun: Always 0 (Success)
- */
 
 int main(void)
-
 {
+    char letter;
 
-	char low;
+    // Print lowercase alphabet
+    for (letter = 'a'; letter <= 'z'; letter++)
+    {
+        putchar(letter);
+    }
 
-	for  (low = 'a'; low <= 'z'; low++)
-	putchar(low);
+    // Print uppercase alphabet
+    for (letter = 'A'; letter <= 'Z'; letter++)
+    {
+        putchar(letter);
+    }
 
-	for (low = 'A'; low <= 'Z'; low++)
-	putchar(low);
-	putchar("/n");
+    // Print a newline character at the end
+    putchar('\n');
 
-	retun (0);
-
+    return 0;
 }
+
 
