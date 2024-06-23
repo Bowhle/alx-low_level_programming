@@ -1,17 +1,17 @@
 #include <stdio.h>
 
+/**
+ * main - prints the alphabetic
+ * Returns: Always (Success)
+ */
+
 int main(void)
+
 {
-    char letter = 'a';  // Start with 'a', the first lowercase letter
+	char c;
 
-    while (letter <= 'z')  // Loop through each letter from 'a' to 'z'
-    {
-        putchar(letter);  // Print the current letter
-        letter++;  // Move to the next letter in the alphabet
-    }
-
-    putchar('\n');  // Print a new line after printing the alphabet
-
-    return 0;
+	for (c = 'a'; c <= 'z'; c++)
+	putchar(c);
+	putchar('\n');
+	return (0);
 }
-
