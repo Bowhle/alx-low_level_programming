@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-/* main - My programme entry point
+/**
+ * main - My programme entry point
  * Return: Always 0 (Success)
  */
-
 int main(void)
 {
 	char a;
