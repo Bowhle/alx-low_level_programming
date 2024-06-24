@@ -2,7 +2,7 @@
 
 /*
  * main - Entry point of the program
- * This function prints the lowercase and uppercase alphabet.
+ * Description: This function prints the lowercase and uppercase alphabet.
  * Return: Always 0 (success)
  */
 int main(void)
