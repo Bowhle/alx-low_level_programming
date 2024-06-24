@@ -2,13 +2,13 @@
 
 /*
  * main - Entry point of the program
- * This function prints the lowercase alphabet followed by the uppercase alphabet,
- * excluding any characters specified in the instructions.
+ * This function prints the lowercase and uppercase alphabet.
  * Return: Always 0 (success)
  */
 
 int main(void)
 {
+	// your existing code goes here
 	char i;
 
 	/* Print lowercase alphabet */
