@@ -5,8 +5,6 @@
  * This function prints the lowercase and uppercase alphabet.
  * Return: Always 0 (success)
  */
-
-/* Prints lowercase, uppercase, and other alphabets */
 int main(void)
 {
 	char i;
