@@ -2,6 +2,10 @@
 
 /*
  * main - Entry point of the program
+ * 
+ * This function prints the lowercase alphabet followed by the uppercase alphabet,
+ * excluding any characters specified in the instructions.
+ *
  * Return: Always 0 (success)
  */
 
