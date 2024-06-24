@@ -2,27 +2,22 @@
 
 /*
  * main - Entry point of the program
- *
- * Return: Always 0 (Success)
+ * Return: Always 0
  */
 
 int main(void)
 {
-	char letter;
+	char i;
 
 	/* Print lowercase alphabet */
-	for (letter = 'a'; letter <= 'z'; letter++)
-		putchar(letter);
+	for (i = 'a'; i <= 'z'; i++)
+	putchar(i);
 
 	/* Print uppercase alphabet */
-	for (letter = 'A'; letter <= 'Z'; letter++)
-	putchar(letter);
+	for (i = 'A'; i <= 'Z'; i++)
+	putchar(i);
 
 	/* Print a newline character at the end */
 	putchar('\n');
-
-	return 0;
-
+	return (0);
 }
-
-
