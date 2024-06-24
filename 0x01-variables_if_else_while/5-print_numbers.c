@@ -1,16 +1,15 @@
 #include <stdio.h>
 
+/* main - My programme entry point
+ * Return: Always 0 (Success)
+ */
+
 int main(void)
 {
-    char digit;
-
-    for (digit = '0'; digit <= '9'; digit++)
-    {
-        putchar(digit);
-    }
-    
-    putchar('\n');  // Print a newline character at the end
-    
-    return 0;
+	char a;
+	
+	for (a = 0; a < 10; a++)
+	printf("%d", a);
+	putchar('\n');
+	return 0;
 }
-
