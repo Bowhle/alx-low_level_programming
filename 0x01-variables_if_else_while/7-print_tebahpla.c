@@ -2,7 +2,7 @@
 
 /**
  * main - Entry point
- * Returns: Always 0 (Success)
+ * Return: Always 0 (Success)
  */
 
 int main(void)
@@ -10,7 +10,7 @@ int main(void)
 	char c;
 	
 	c = 'z';
-	while 
+	while
 	(c >= 'a')
 	{
 	putchar(c);
