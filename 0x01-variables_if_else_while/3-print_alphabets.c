@@ -8,7 +8,6 @@
 
 int main(void)
 {
-	// your existing code goes here
 	char i;
 
 	/* Print lowercase alphabet */
