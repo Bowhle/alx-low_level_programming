@@ -6,6 +6,7 @@
  * Return: Always 0 (success)
  */
 
+//Prins lowercase, uppercase, and other alphabets
 int main(void)
 {
 	char i;
