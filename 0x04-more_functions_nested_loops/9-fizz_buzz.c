@@ -1,8 +1,7 @@
 #include <stdio.h>
-#include "main.h"
 
 /**
- * fizz_buzz - prints the numbers from 1 to 100, but for multiples of three
+ * main - func prints the numbers from 1 to 100, but for multiples of three
  * prints Fizz instead of the number and for multiples of five prints Buzz.
  * For numbers which are multiples of both three and five prints FizzBuzz.
  * Return: Always 0
