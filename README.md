@@ -1,1 +1,1 @@
-This is another project on C - malloc, free
+This is another lesson on C - argc, argv
