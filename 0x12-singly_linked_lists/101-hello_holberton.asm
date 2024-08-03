@@ -1,21 +1,15 @@
 section .data
-    msg db 'Hello, Holberton', 10, 0  ; Define the message with a newline character
-
-section .bss
+    format db 'Hello, Holberton', 10, 0  ; Format string with newline and null terminator
 
 section .text
     global main
     extern printf
 
 main:
-    ; Prepare arguments for printf
-    mov rdi, fmt            ; Address of the format string
-    mov rsi, msg            ; Address of the message string
-    call printf             ; Call printf
+    mov rdi, format          ; Address of the format string
+    xor rax, rax             ; Clear rax (no floating-point arguments)
+    call printf              ; Call printf
 
-    ; Exit program
-    mov eax, 0              ; Return 0 status code
+    ; Exit the program
+    mov eax, 0               ; Return 0 status code
     ret
-
-section .data
-    fmt db '%s', 0          ; Format string for printf
