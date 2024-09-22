@@ -14,7 +14,7 @@ int main(int argc, char *argv[])
 	char password[7], *codex;
 	int len, i, tmp;
 
-	if (argc != 2) // Check for the correct number of arguments
+	if (argc != 2) /* Check for the correct number of arguments */
 	{
 		fprintf(stderr, "Usage: %s username\n", argv[0]);
 		return (1);
