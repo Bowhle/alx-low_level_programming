@@ -1,5 +1,6 @@
 #!/usr/bin/python3
-""" a funtion that returns a perimeter of the island described in grid """
+""" a function that returns a perimeter
+of the island described in grid """
 
 
 def island_perimeter(grid):
@@ -7,7 +8,8 @@ def island_perimeter(grid):
     Returns the perimeter of the island described in the grid.
 
     Parameters:
-    grid (list of list of int): A grid of 0s and 1s representing water and land cells respectively.
+    grid (list of list of int): A grid of 0s and 1s representing water
+    and land cells respectively.
 
     Returns:
     int: The perimeter of the island.
